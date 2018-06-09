@@ -795,3 +795,9 @@ img[src*="images/Lipico.jpg"] {
     height: 80px;
     padding-top: 10px;
 }
+
+#lipico {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+}
