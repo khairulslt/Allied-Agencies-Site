@@ -1,5 +1,3 @@
-// Custom Script
-// Developed by: Samson.Onna
 var customScripts = {
     profile: function () {
         // portfolio
@@ -85,3 +83,4 @@ var customScripts = {
 $('document').ready(function () {
     customScripts.init();
 });
+
