@@ -783,18 +783,48 @@ hr.style2 {
     border-style: solid;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 @media only screen and (max-width: 400px) {
   #home {
     padding: 70px 0;
+  }
+
+  #aboutUs {
+    padding-bottom: 0px;
+  }
+
+  #products {
+    padding-top: 0px;
   }
 
   .da-dots {
     bottom: -8px;
   }
 
+  .item-content .fa {
+    display: none;
+  }
+
   .sliderProducts {
     width: 100px;
     margin-bottom: 150px;
     margin-left: 30px;
+  }
+
+  .grid .text-content {
+    padding: 0px;
   }
 }
