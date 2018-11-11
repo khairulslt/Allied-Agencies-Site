@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,900,500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,500);
 
 * {
     margin: 0;
@@ -781,4 +781,19 @@ hr.style2 {
     border-color:#CCCCCC;
     border-width:1px;
     border-style: solid;
+}
+
+@media only screen and (max-width: 400px) {
+  #home {
+    padding: 70px 0;
+  }
+
+  .da-dots {
+    bottom: -8px;
+  }
+
+  .sliderProducts {
+    width: 100px;
+    padding-bottom: 500px;
+  }
 }
