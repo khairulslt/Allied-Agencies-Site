@@ -27,6 +27,9 @@ p {
     color: #858585;
 }
 
+section#home.page-section {
+    padding-bottom: 0px;
+}
 
 .pDark p {
     color: #2B2B2B;
