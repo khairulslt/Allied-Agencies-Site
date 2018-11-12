@@ -800,7 +800,7 @@ hr.style2 {
     position:absolute;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   #home {
     padding: 70px 0;
   }
